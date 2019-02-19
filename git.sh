@@ -41,3 +41,7 @@ gd() {
 gr() {
     git reset $@
 }
+
+gl() {
+    git pull $@
+}
